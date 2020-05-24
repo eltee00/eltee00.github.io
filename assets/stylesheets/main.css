@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+  ========================================
+  Body styles
+  ========================================
+*/
+
+body {
+    background: #122927;
+    color: rgb(126, 118, 118);
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#twizz {
+    padding: 0px 0px 0px 0px;
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#twizztime {
+    padding: 0px 0px 45px 0px;
+    font-size: 14px;
+    text-align: left;
+    color: #648880;
+}
+
+/*
+  ========================================
+  Logo Header
+  ========================================
+*/
+
+.logo {
+    float: left;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    line-height: 0px;
+    padding: 20px 0px 70px 0px;
+    text-transform: uppercase;
+    margin: 30px 50px 50px 0px;
+}
+
+.usercontainer {
+    padding: 0px 10px 40px 40px;
+}
+
+/*
+  ========================================
+  Twizz Input Section
+  ========================================
+*/
+
+.twizzinputcontainer {
+    padding: 0px 50px 0px 0px;
+}
+
+.usernameinput input, .twizzinput input {
+    width: 92%;
+    background-color: #a9b2b9;
+    margin: 11px 0px 10px 0px;
+}
+
+#submitName {
+    font-size: 20px;
+    padding: 0px 30px 10px 0px;
+}
+
+#submitTwizz {
+    padding: 0px 0px 150px 0px;
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.twizzinput button, .usernameinput button {
+    float: left;
+}
+
+/*
+  ========================================
+  Main Twizz Section
+  ========================================
+*/
+
+.twizzcontainer {
+    padding: 0px 0px 0px 0px;
+}
+
+/*
+  ========================================
+  User Twizz Section
+  ========================================
+*/
+
+.usercontainer {
+    padding: 0px 10px 40px 40px;
+}
+
+#namesection {
+    padding: 0px 0px 30px 0px;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container, .grid {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2 {
+    color: #648880;
+}
+
+h1, p {
+    margin-bottom: 22px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+.usernameinput h2 {
+    text-align: left;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+    color: #648880;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a9b2b9;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+    border-radius: 5px;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 10px 10px 30px 00px;
+    text-transform: uppercase;
+    border: 1px solid rgb(248, 248, 248);
+    padding: 10px 50px;
+    background: #122927;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
